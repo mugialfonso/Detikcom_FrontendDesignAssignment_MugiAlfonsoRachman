@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white">
+   
+    <nav class="bg-[#007CBD] border-gray-200" >
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-10">
+            <a class="flex items-center justify-center w-48 h-12">
+              <img class="h-8 mr-3" src="/src/img/logo.png" alt="detikfinance-logo">
+            </a>
+            <button id="navbar-toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white  md:hidden" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-montserrat font-medium flex flex-col p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:border-0">
+              
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0">About</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0">Mechanism</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-300 md:p-0">Latest Update</a>
+              </li>
+              <li>
+                <button id="Register-btn" class="  px-6  text-[#007CBD] rounded-full font-semibold bg-white hover:bg-gray-300  active:bg-gray-400 focus:outline-none focus:ring focus:ring-[#007CBD]">Register</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+    </nav>
+    
+    <section>
+      <div id="hero" class="text-white bg-cover bg-center md:bg-full md:bg-center bg-fixed" style="background-image: linear-gradient(rgba(62, 199, 243, 0.7), rgba(27, 133, 232, 0.7)), url(/src/img/hero-bg.png);">
+        <div class="font-montserrat container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-36 md:px-10 lg:px-32 xl:max-w-3xl">
+          <p class="px-8 mt-8 mb-1 text-lg">Detikfinance Business Plan Competition 2023</p>
+          <h1 class="text-2xl font-bold leading-snug sm:text-4xl">EMPOWERING INDONESIA STARTUP</h1>
+          <p class="px-4 mt-2 mb-4 text-sm">Detikfinance memberikan ruang kepada para startup di Indonesia untuk menunjukkan, serta mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor</p>
+          <div class="flex flex-wrap justify-center">
+            <button class="px-4 py-3 m-2 text-sm font-semibold rounded bg-[#3EB7DD] text-white">Daftarkan startup kamu</button>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="flex justify-center px-6 py-4 bg-[#F4FBFF] font-montserrat">
+        <a href="#" class="flex flex-col  px-6 py-4 items-center bg-white border border-gray-200 rounded-lg shadow-md md:flex-row md:max-w-4xl  lg:max-w-6xl hover:bg-gray-100">
+          <img class="w-full h-auto md:w-96 md:h-54 lg:w-120 lg:h-67 lg:rounded-l-lg lg:rounded-t-lg aspect-w-16 aspect-h-9" src="/src/img/about-img.png" alt="about-img">
+          <div class="flex flex-col justify-between p-4 leading-normal md:w-3/4 lg:w-2/3">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#007CBD]">About Detikfinance Business Plan Competition 2023</h5>
+            <p class="mb-3 font-normal text-[#1B1E28]">Detikfinance kali ini akan memberikan ruang bagi startup untuk networking dan memamerkan produk inovasinya di hadapan venture capital dan angel investor. Acara ini juga akan menghadirkan para pengembang teknologi dan pelaku bisnis untuk memberikan edukasi dan inspirasi bagi masyarakat Indonesia dan teknofilia mengenai perkembangan teknologi di Indonesia.</p>
+            <div class="flex items-center">
+              <p class="mr-2 text-[#007CBD]">Share</p>
+              <img src="/src/img/twitter.svg" class="w-6 h-6 mx-2" alt="twitter-icon">
+              <img src="/src/img/Vector.svg" class="w-6 h-6 mx-2" alt="whatsapp-icon">
+              <img src="/src/img/facebook.svg" class="w-6 h-6 mx-2"alt="facebook-icon">
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <div id="mechanism" class="bg-[#5eaddb] font-montserrat">
+        <div class="max-w-screen-xl mx-auto py-12 px-4">
+          <h1 class="text-3xl font-bold mb-14 text-center" style="color: #FFF; font-family: Montserrat; font-size: 48px; font-style: normal; font-weight: 700; line-height: 20px;">Mekanisme</h1>
+            <div class="flex flex-col  my-6 md:flex-row justify-center items-center gap-8"> 
+              <a href="#" class="flex flex-col px-6 py-4 items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100">
+                  <img class="icon-regist rounded-t-lg h-64 md:h-auto md:w-64 md:rounded-none md:rounded-l-lg" src="/src/img/icon-regist.svg" alt="icon-regist">
+                  <div class="flex flex-col justify-between p-4 leading-normal">
+                      <div class="flex flex-row items-center mb-2">
+                          <h5 class="text-2xl font-bold tracking-tight text-[#007CBD] mr-2">Registrasi</h5>
+                          <p class="text-xs  bg-[#007CBD] text-white px-2 py-1 rounded">1 - 30 Januari 2023</p>
+                      </div>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">1. Calon peserta diminta untuk mengisi formulir pendaftaran online yang berisi informasi pribadi, kontak, dan rincian tim pada link berikut</p>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">2. Selain itu, peserta juga diharapkan mengunggah ringkasan rencana bisnis mereka yang mencakup visi, misi, strategi, dan analisis pasar</p>
+                  </div>
+              </a>
+            </div>
+            <div class="flex flex-col  my-6 md:flex-row justify-center items-center gap-8"> 
+              <a href="#" class="flex flex-col px-6 py-4 items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100">
+                  <img class="Icon-Check rounded-t-lg h-64 md:h-auto md:w-64 md:rounded-none md:rounded-l-lg" src="/src/img/Icon-Check.svg" alt="icon-regist">
+                  <div class="flex flex-col justify-between p-4 leading-normal">
+                      <div class="flex flex-row items-center mb-2">
+                          <h5 class="text-2xl font-bold tracking-tight text-[#007CBD] mr-2">Seleksi Peserta</h5>
+                          <p class="text-xs  bg-[#007CBD] text-white px-2 py-1 rounded">1 - 7 Februari 2023</p>
+                      </div>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">1. Tim seleksi akan meninjau setiap pendaftaran dan mengevaluasi kualitas dan kelayakan bisnis plan yang diajukan</p>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">2. Kriteria evaluasi dapat mencakup inovasi, potensi pertumbuhan, kelayakan keuangan, dan kejelasan presentasi</p>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">3. Peserta yang memenuhi persyaratan seleksi akan dipilih sebagai finalis dan berhak melanjutkan ke tahap berikutnya</p>
+                  </div>
+              </a>
+            </div>
+            <div class="flex flex-col  my-6 md:flex-row justify-center items-center gap-8"> 
+              <a href="#" class="flex flex-col px-6 py-4 items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-gray-100">
+                  <img class="Icon-Presentation rounded-t-lg h-64 md:h-auto md:w-64 md:rounded-none md:rounded-l-lg" src="/src/img/Icon-Presentation.svg" alt="icon-regist">
+                  <div class="flex flex-col justify-between p-4 leading-normal">
+                      <div class="flex flex-row items-center mb-2">
+                          <h5 class="text-2xl font-bold tracking-tight text-[#007CBD] mr-2">Pengumuman Peserta Terpilih</h5>
+                          <p class="text-xs  bg-[#007CBD] text-white px-2 py-1 rounded">8 Februari 2023</p>
+                      </div>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">1. Pengumuman finalis akan dilakukan melalui email</p>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">2. Finalis akan diinformasikan tentang jadwal presentasi dan persiapan yang diperlukan</p>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">3. Pada acara pengumuman pemenang, setiap finalis akan mempresentasikan rencana bisnis mereka di hadapan panel juri</p>
+                      <p class="mb-3 font-semibold text-[#1B1E28]">4. Setelah presentasi, panel juri akan melakukan evaluasi dan mengumumkan pemenang kompetisi business plan</p>
+                  </div>
+              </a>
+            </div>
+        </div>
+      </div>
+      <div id="running-logo-slider" class="bg-[#F4FBFF]">
+        <div class="max-w-screen-xl mx-auto py-12 px-4 flex flex-wrap justify-center gap-4">
+          <div class="text-xl mt-5 font-bold mb-14 text-center">
+            <p>Dapatkan Kesempatan Dilirik oleh Venture Capital / Angel Investor Serta Menjadi Narasumber di Detikfinance</p>
+          </div>
+
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/alpha-logo.png" alt="Logo-alpha" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+      
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/500-logo.png" alt="Logo-500" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+      
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/insignia-logo.png" alt="Logo-insignia" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+      
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/sequoia-logo.png" alt="Logo-sequoia" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+      
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/alpha-jwc 1 (3).png" alt="Logo-sginovate" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/gfc-logo (1).png" alt="Logo-gfc" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/golde-logo.png" alt="Logo-golden" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+
+          <a href="#" class="flex flex-col p-10 items-center bg-white border border-gray-200 rounded-lg shadow custom-card">
+            <div class="flex flex-col justify-center items-center h-full">
+              <img src="/src/img/wave-logo.png" alt="Logo-wave" class="object-contain h-16 w-16 md:h-24 md:w-24">
+            </div>
+          </a>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <button class="px-4 py-3 m-8 text-sm font-semibold rounded bg-[#3EB7DD] text-white">Daftarkan startup kamu</button>
+        </div>
+      </div>
+
+      <div id="latest-update " class="bg-white">
+        <div class="max-w-screen-xl mx-auto py-12 px-4 flex flex-wrap justify-center gap-4">
+          <div class="text-4xl mt-5 font-bold mb-14 text-center">
+            <h1>Latest Update</h1>
+          </div>
+        </div>
+      </div>
+    
+
+          
+     
+      
+      
+      
+      
+      
+      
+      
+    </section>
+
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>

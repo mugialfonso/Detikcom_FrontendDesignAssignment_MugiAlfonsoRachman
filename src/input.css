@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For screens 1024px and below, use bg-center and bg-fixed */
+#hero {
+    background-position: center;
+    background-attachment: scroll;
+  }
+  
+  /* For screens wider than 1024px, use bg-center without bg-fixed */
+  @media (min-width: 1025px) {
+    #hero {
+      background-attachment: scroll;
+    }
+  }
+  
+  .icon-regist {
+    width: 100px; /* Adjust the width as desired */
+    height: 100px; /* Adjust the height as desired */
+    object-fit: contain; /* Fit the image within its container */
+    filter: brightness(80%) sepia(100%) hue-rotate(180deg) drop-shadow(0 0 6px #3EB7DD); /* Apply blue tint and drop shadow */
+  }
+
+  .Icon-Check {
+    width: 100px; /* Adjust the width as desired */
+    height: 100px; /* Adjust the height as desired */
+    object-fit: contain; /* Fit the image within its container */
+    filter: brightness(80%) sepia(100%) hue-rotate(180deg) drop-shadow(0 0 6px #3EB7DD); /* Apply blue tint and drop shadow */
+  }
+
+  .Icon-Presentation {
+    width: 100px; /* Adjust the width as desired */
+    height: 100px; /* Adjust the height as desired */
+    object-fit: contain; /* Fit the image within its container */
+    filter: brightness(80%) sepia(100%) hue-rotate(180deg) drop-shadow(0 0 6px #3EB7DD); /* Apply blue tint and drop shadow */
+  }
+
+  #mechanism {
+    /* Add a linear gradient background with the specified colors */
+    background: linear-gradient(to bottom, #2095E4, #3EB7DD, #B0E2F8);
+  }
+
+  .custom-card {
+    width: 291px;
+    height: 144px;
+  }
+
